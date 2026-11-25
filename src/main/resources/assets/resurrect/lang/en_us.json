@@ -1,0 +1,5 @@
+{
+  "button.resurrect.resurrect": "Resurrect",
+  "button.resurrect.waiting": "Resurrect (%s)",
+  "effect.resurrect.resurrecting": "Resurrecting"
+}

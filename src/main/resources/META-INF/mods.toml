@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="resurrect"
+version="${mod_version}"
+displayName="Resurrect (Vampirism Addon)"
+description='''
+Replaces Vampirism's down-but-not-out. Vampires of level 4 and up who would normally be downed instead die,
+and the death screen offers a Resurrect button after a 15 second wait. Your body reassembles from the feet up
+as gore flows back in. Deaths from sunlight, stakes, hunters, holy water and other vampire killers are final.
+'''
+
+[[dependencies.resurrect]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.resurrect]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.resurrect]]
+    modId="vampirism"
+    mandatory=true
+    versionRange="[1.10,2)"
+    ordering="AFTER"
+    side="BOTH"
